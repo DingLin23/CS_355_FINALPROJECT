@@ -1,0 +1,8 @@
+body {
+    text-align: center;
+        /* Setting default text color, background and a font stack */
+      color:black;
+      font-size:25px;
+      background: #3399FF;
+      font-family: 'Raleway', sans-serif;
+  }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- CSS -->
+        <link href="assets/css/geolocation.css" rel="stylesheet">
+
+        <!-- JS -->
+        <script src="assets/js/geolocation.js"></script>
+    </head>
+    <div class="container">
+
+            <h1>Geolocation API</h1>
+    Longitude: <span id="longitude"></span>
+    <br>
+    Latitude: <span id="latitude"></span>
+  </p>
+          
+            <form class="form-horizontal">
+              <div class="form-group">
+                <button type="button" class="find-me btn btn-info btn-block">Find your location</button>
+              </div>
+            </form>
+          
+            <p class="not-on-https">Not on HTTPS :( Most browsers require HTTPS to run the Geolocation API.</p>
+            <p class="no-geolocation-support">The Geolocation API isn't supported in this browser :(</p>
+          
+            <p class="coordinates">Latitude is <b class="latitude">00.000000°</b>, longitude is <b class="longitude">00.000000°</b>.</p>
+          
+            <div id="map">
+              <div id="map-canvas"></div>
+            </div>
+          
+          </div>
